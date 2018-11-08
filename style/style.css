@@ -215,6 +215,15 @@ a{
   padding-bottom:200px;
 }
 
+#history{
+  text-align: center;
+  background: linear-gradient(rgba(194, 192, 5, .5),rgba(194, 192, 5, 1));
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+  padding-bottom:200px;
+}
+
 .missiontitle{
   font-size:3em;
   padding:200px 0px 0px 0px;
