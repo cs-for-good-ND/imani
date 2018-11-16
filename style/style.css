@@ -132,6 +132,16 @@ a{
   border:solid 10px #5F3A1A;
 }
 
+#aboutus {
+  text-align:center;
+  color:black;
+  margin-top:20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border:solid 10px #5F3A1A;
+  padding-top: 2px;
+}
+
 #radio{
   text-align: center;
   color:black;
