@@ -1,0 +1,14 @@
+.brochure{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.downloadable{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+	color: blue;
+}
