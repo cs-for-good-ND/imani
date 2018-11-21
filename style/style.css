@@ -85,6 +85,13 @@ a{
   font-family: 'Amatic SC', cursive;
 }
 
+#titles3 {
+  text-shadow: -1px 0 black, 0 2px green, 2px 0 green, 0 -2px green;
+  width:100%;
+  margin-top: 0px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 100px
+}
 
 
 .row{
@@ -282,3 +289,32 @@ a{
     margin-right: auto;
     
 }
+
+.dropbtn {
+    background-color: transparent;
+    color: #777;
+    padding: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display:none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {display:block;}
