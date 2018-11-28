@@ -40,6 +40,11 @@ h2{
   padding: 2px 2px 2px 2px;
 }
 
+.nondiscrim{
+  text-align: center;
+  padding: 2px 2px 2px 2px;
+}
+
 a{
   color:black;
 }
@@ -297,7 +302,6 @@ a{
     display: block;
     margin-left: auto;
     margin-right: auto;
-<<<<<<< HEAD
     
 }
 
@@ -329,7 +333,4 @@ a{
 }
 
 .dropdown:hover .dropdown-content {display:block;}
-=======
 
-}
->>>>>>> 0b289633b5f04f0ddb8aa230caeaa53a554a2a64
