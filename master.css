@@ -15,7 +15,10 @@
 body {
     padding-top: 120px;
     text-align: center;
+}
 
+#navbar {
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .row.vdivide [class*='col-']:not(:last-child):after {
@@ -39,10 +42,12 @@ body {
 
 #sections p {
     padding-top: 25px;
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 0.5px;
     padding-right: 20px;
     font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+
 }
 
 #sections {
@@ -59,6 +64,7 @@ body {
 #mainContent #content {
     color: grey;
     text-align: left;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .flex-container {
@@ -98,6 +104,7 @@ body {
 #footText {
     float: left;
     position: absolute;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #header-background {
