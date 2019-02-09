@@ -126,3 +126,8 @@ body {
     color: white;
     
 }
+
+#contact {
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+}
