@@ -58,6 +58,7 @@ body {
 
 #mainContent #content {
     color: grey;
+    text-align: left;
 }
 
 .flex-container {
