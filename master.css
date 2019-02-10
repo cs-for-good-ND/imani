@@ -124,3 +124,13 @@ h2, h3, h4, h5, h6 {
     color: white;
     
 }
+
+#contact {
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#involvedheader {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
