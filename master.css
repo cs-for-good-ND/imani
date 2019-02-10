@@ -132,7 +132,25 @@ h2, h3, h4, h5, h6 {
     font-family: 'Ubuntu', sans-serif;
 }
 
+#contact h1 {
+    color:#132c86;
+}
+
+#contact h2 {
+    color: #539537;
+}
+
 #involvedheader {
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
+    color: grey;
+    
+}
+
+#involvedheader h1 {
+    color:#132c86;
+}
+
+#involvedheader h2 {
+    color: #539537;
 }
