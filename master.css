@@ -130,6 +130,7 @@ h2, h3, h4, h5, h6 {
 #contact {
     text-align: left;
     font-family: 'Ubuntu', sans-serif;
+    color: grey;
 }
 
 #contact h1 {
@@ -152,5 +153,19 @@ h2, h3, h4, h5, h6 {
 }
 
 #involvedheader h2 {
+    color: #539537;
+}
+
+#staff {
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    color: grey;
+}
+
+#staff h1 {
+    color:#132c86;
+}
+
+#staff h2 {
     color: #539537;
 }
