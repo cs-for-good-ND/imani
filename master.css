@@ -24,6 +24,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+
 .dropdown:hover>.dropdown-menu {
     display: block;
 }
@@ -42,19 +43,34 @@ body {
     padding-top: 100px;
 }
 
-#mainContent .jumbotron {
+#historyContent .jumbotron{
+    position: relative;
+    top: 50px;
+}
+
+#historyContent #content {
+    color: grey;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#historyContent h2 {
+    color: #539537;
+}
+
+#servicesContent .jumbotron {
     position: relative;
     top: 100px;
     left: 80px;
 }
 
-#mainContent #content {
+#servicesContent #content {
     color: grey;
     text-align: left;
     font-family: 'Ubuntu', sans-serif;
 }
 
-#mainContent h2 {
+#servicesContent h2 {
     color: #539537;
 }
 
@@ -91,6 +107,15 @@ body {
     padding-bottom: 80px;
 }
 
+#pictureText {
+    text-align:center;
+    font-size: 36px;
+    display: block;
+    font-family: 'Bungee Shade';
+    color: white;
+    padding-right: 50px;
+    
+}
 
 #head {
     position: relative;
@@ -104,16 +129,6 @@ h1 {
 h2, h3, h4, h5, h6 {
     font-family: 'Ubuntu', sans-serif;
     color: #539537;
-}
-
-
-#pictureText {
-    text-align:center;
-    font-size: 36px;
-    display: block;
-    font-family: 'Bungee Shade';
-    color: white;
-    
 }
 
 button {
