@@ -12,8 +12,12 @@
 }
 
 body {
-    padding-top: 120px;
+    padding-top: 130px;
     text-align: center;
+}
+
+#godown{
+   height: 60px;
 }
 
 #navbar {
@@ -183,5 +187,25 @@ button {
 }
 
 #staff h2 {
+    color: #539537;
+}
+
+.carousel {
+    width: auto;
+    height:auto;
+    overflow: hidden;
+} 
+
+#index {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: grey;
+}
+
+#index h1 {
+    color:#132c86;
+}
+
+#index h2 {
     color: #539537;
 }
