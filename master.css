@@ -209,3 +209,13 @@ button {
 #index h2 {
     color: #539537;
 }
+
+.resource{
+  
+  text-align: center;
+  color: black;
+  padding:  10px 0px 10px 0px;
+  border:solid 1px #539537;
+  border-radius: 5px;
+  margin: 10px 80px 10px 80px;
+}

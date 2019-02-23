@@ -1,0 +1,335 @@
+
+
+body {
+
+ }
+
+
+#event{
+  border: solid 10px white;
+  margin:20px 20px 20px 20px;
+}
+
+h1{
+  text-align: center;
+  font-size: 10em;
+
+}
+
+h2{
+   font-family: 'Monoton', cursive;
+}
+
+.oada{
+  padding:4px 3px 3px 3px;
+  text-decoration: underline;
+}
+
+.resource2{
+  font-family: inherit;
+  border:solid 7px #1F43AF;
+  margin: 20px 10px 20px 10px;
+}
+
+.service2{
+  text-decoration: underline;
+}
+
+.rinfo{
+  text-align: left;
+  padding: 2px 2px 2px 2px;
+}
+
+a{
+  color:black;
+}
+
+.small{
+  font-size:2.5em;
+  font-family: 'Rubik Mono One', sans-serif;
+  text-align: center;
+}
+
+#home{
+  background-image: url("http://i.ebayimg.com/images/i/400899393262-0-1/s-l1000.jpg");
+}
+
+#title{
+  text-align: center;
+  padding-bottom: 200px;
+
+  padding-top: 200px;
+  font-family: 'Bungee Shade', cursive;
+  color:white;
+}
+
+.row1{
+  margin-top: 30px;
+  margin-bottom: 30px
+}
+
+.carousel-caption {
+  background:none;
+}
+
+.pictures{
+  margin: 20px 25px 20px 25px;
+  border: solid 10px rgba(184, 17, 0, .5);
+}
+
+
+#titles2{
+  text-shadow: -1px 0 black, 0 2px green, 2px 0 green, 0 -2px green;
+  width:100%;
+  margin-top: 75px;
+  font-family: 'Amatic SC', cursive;
+}
+
+#titles3 {
+  text-shadow: -1px 0 black, 0 2px green, 2px 0 green, 0 -2px green;
+  width:100%;
+  margin-top: 0px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 100px
+}
+
+
+.row{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#definition{
+  text-align: center;
+  color:white;
+  border: solid 10px rgba(254, 127, 15,0.85);
+  margin:20px 20px 20px 20px;
+}
+
+#definition2{
+  text-align: center;
+  color:black;
+}
+
+#deftitle{
+  text-shadow: -1px 0 black, 0 2px green, 2px 0 green, 0 -2px green;
+  font-size: 10px;
+  width:100%;
+  margin-top: 75px;
+  font-family: 'Amatic SC', cursive;
+}
+
+#infodef{
+  color:black;
+}
+
+#resources{
+  text-align: center;
+  color:black;
+  border:solid 10px #A37E24;
+  margin:20px 20px 20px 20px;
+}
+
+#services{
+  text-align:center;
+  color:black;
+  margin-top:20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border:solid 10px #5F3A1A;
+}
+
+#aboutus {
+  text-align:center;
+  color:black;
+  margin-top:20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border:solid 10px #5F3A1A;
+  padding-top: 2px;
+}
+
+#radio{
+  text-align: center;
+  color:black;
+  margin: 20px 25px 20px 25px;
+  border:solid 10px rgba(123,128,53,0.85);
+}
+
+#broadcast{
+  text-align: center;
+  margin: 20px 25px 20px 25px;
+  border: solid 10px #A37E24;
+}
+
+
+#survey{
+  text-align: center;
+  color:black;
+  border:solid 10px #1F43AF;
+  padding-bottom: 50px;
+  margin: 20px 20px 20px 20px;
+}
+
+#surveytitle{
+  padding-bottom: 20px;
+}
+
+#address{
+  margin:50px 150px 50px 150px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  border: solid 10px rgba(254, 127, 15,0.85) ;
+  }
+
+#colfax{
+  padding-top: 50px;
+  padding-left: 100px;
+}
+#staff{
+  text-align: center;
+  color:black;
+  padding-bottom: 23px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border:solid 10px rgba(123,128,53,0.85);
+}
+
+.staff2{
+  padding-top: 20px;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 2.5em;
+}
+
+#sponser{
+  text-align:center;
+  margin: 20px 20px 20px 20px;
+  border:solid 10px #1F43AF;
+
+}
+
+.staffpics{
+  width:100%;
+  height:250px;
+}
+
+#missions{
+  text-align: center;
+  background: linear-gradient(rgba(184, 17, 0, .5),rgba(184, 17, 0, 1));
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+  padding-bottom:200px;
+}
+
+#missions2{
+  text-align: center;
+  background: linear-gradient(rgba(31, 67, 175, .5),rgba(31, 67, 175, 1));
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+  padding-bottom:200px;
+}
+
+#history{
+  text-align: center;
+  background: linear-gradient(rgba(194, 192, 5, .5),rgba(194, 192, 5, 1));
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+  padding-bottom:200px;
+}
+
+.missiontitle{
+  font-size:3em;
+  padding:200px 0px 0px 0px;
+}
+
+.homepageheader{
+  font-size: 3em;
+}
+
+.homepageheader2{
+  font-size: 3em;
+  padding:20px;
+}
+
+#updates{
+  text-align: center;
+  background: linear-gradient(rgba(254, 127, 15, .5),rgba(254, 127, 15, 1));
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+  padding-bottom:200px;
+}
+
+#wisdom{
+  text-align: center;
+  background-color: rgba(123,128,53,0.85);
+  color:white;
+
+
+}
+
+#definfo{
+  color:black;
+}
+
+#staffname{
+  background-color: white;
+  color:black;
+}
+
+#sponpics{
+  width:100%;
+  height:100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#radioPara {
+    text-align: left;
+    padding-top: 50px;
+}
+
+#teens {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+<<<<<<< HEAD
+    
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: #777;
+    padding: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display:none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {display:block;}
+=======
+
+}
+>>>>>>> 0b289633b5f04f0ddb8aa230caeaa53a554a2a64

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title> Imani Unidad </title>
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+      <!-- Optional theme -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="style/style.css">
+      <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+      
+      <link rel="import" href="./navbarTemplate.html">
+
+  </head>
+
+  <body>
+	  <nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+
+<<<<<<< HEAD
+	  <ul class="nav navbar-nav">
+		<li><a href="index.html">Home</a></li>
+		<!--<li class="active"><a href="about.html">About Us</a></li>-->
+          
+        <li><div class="dropdown">
+          <button class="dropbtn">About Us</button>
+            <div class="dropdown-content">
+                <a href="tab_sites/About-Us/history.html">History</a>
+                <a href="tab_sites/About-Us/staff.html">Staff</a>
+                <a href="tab_sites/About-Us/board-members.html">Board Members</a>
+
+            </div>
+          </div>
+        </li>
+          
+		<li><div class="dropdown">
+            <button class="dropbtn"> Services</button>
+            <div class="dropdown-content">
+                <a href="tab_sites/Services/Therapeutic.html">Therapeutic</a>
+                <a href="tab_sites/Services/Education.html">Education</a>
+                <a href="tab_sites/Services/Advocacy.html">Advocacy</a>
+            </div>
+            </div> 
+          </li>
+          
+		<li><div class="dropdown">
+            <button class="dropbtn"> Media</button>
+            <div class="dropdown-content">
+                <a href="tab_sites/Media/Photos.html">Photos</a>
+                <a href="tab_sites/Media/Radio.html">Radio</a>
+                <a href="tab_sites/Media/TV.html">TV</a>
+            </div>
+            </div> 
+          </li>          
+        
+		<li><a href="links.html">Important Links</a></li>
+		<li><a href="communityBasedResearch.html">Community Based Research</a></li>
+          
+ 		<li><div class="dropdown">
+            <button class="dropbtn">Contact Us</button>
+            <div class="dropdown-content">
+                <a href="tab_sites/Contact-Us/Get-Involved.html">Get Involved</a>
+            </div>
+            </div> 
+          </li>       
+          
+		<li><a href="donate.html">Donate</a></li>
+	  </ul>
+		</div>
+	  </nav>
+	  
+      <div id="resources">
+         <h2 class ="small">
+           Resources
+         </h2>
+
+         <a href="https://www.nastad.org/resource/national-adap-monitoring-project-2016-annual-report">
+           <h3 class="oada">
+           Online AIDS Drug Assistance Program
+         </h3>
+       </a>
+
+       <div class="rinfo">
+         <h4>The 2017 Online AIDS Drug Assistance Program (ADAP) Formulary Database (the Database) which may be accessed via the accompanying User’s Guide. The Database provides an online, searchable, publicly available resource detailing state-by-state ADAP coverage of medications both individually and by drug class including HIV antiretroviral (ARV) treatments, “A1” Opportunistic Infections (A1 OI) medications, treatments for hepatitis B and C, mental health and substance use treatment medications, and various vaccines and laboratory tests and includes ADAP formulary coverage for all 50 states, the District of Columbia, Guam, Puerto Rico, and the U.S. Virgin Islands as of December 31, 2016.
+           For more info, click <a href= https://docs.google.com/document/d/1G0PqonbPkdfS2ZmYSHFo-JRy9ZuQIW-HShPtdFnAZ88/pub> HERE </a>
+         </h4>
+       </div>
+
+       <h3 class="oada">
+       Resource Links
+      </h3>
+=======
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="media.html">Media</a></li>
+        <li class="active"><a href="links.html">Important Links</a></li>
+        <li><a href="communityBasedResearch.html">Community Based Research</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="donate.html">Donate</a></li>
+      </ul>
+        </div>
+      </nav>
+
+      <h1 id="titles2">
+       Resource Links
+      </h1>
+>>>>>>> 0b289633b5f04f0ddb8aa230caeaa53a554a2a64
+
+
+      <div class="row">
+        <div class="col-md-4">
+          <h3 class="resource2">
+            <a href="http://www.aidsmap.com/booklets">Aids Map</a>
+          </h3>
+        </div>
+        <div class="col-md-4">
+          <h3 class="resource2">
+          <a href="http://www.siecus.org/">Siecus</a>
+        </h3>
+      </div>
+        <div class="col-md-4">
+          <h3 class="resource2">
+            <a href="https://aidsinfo.nih.gov/education-materials/fact-sheets/21/55/following-an-hiv-regimen---steps-to-take-before-and-after-starting-hiv-medicines#">Aids Info</a>
+          </h3>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <h3 class="resource2">
+            <a href="https://www.cdc.gov/hiv/default.html">CDC</a>
+          </h3>
+        </div>
+        <div class="col-md-4">
+          <h3 class="resource2">
+          <a href="https://www.samhsa.gov/hiv-aids-viral-hepatitis/samhsas-efforts">Samhsa</a>
+        </h3>
+      </div>
+        <div class="col-md-4">
+          <h3 class="resource2">
+            <a href="https://www.iusb.edu/civil-rights/events_and_news/index.php">IUSB</a>
+          </h3>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <h3 class="resource2">
+            <a href="http://www.thelgbtqcenter.org/">The LGBTQ Center</a>
+          </h3>
+        </div>
+        <div class="col-md-4">
+          <h3 class="resource2">
+          <a href="http://www.stepupin.org/Index/index.php">Step Up In</a>
+        </h3>
+      </div>
+        <div class="col-md-4">
+          <h3 class="resource2">
+            <a href="https://www.blackaids.org/">Black Aids</a>
+          </h3>
+        </div>
+        <div class="col-md-4">
+          <h3 class="resource2">
+            <a href="https://www.youtube.com/watch?v=7R_Qk1AN5S4">Four Women</a>
+          </h3>
+        </div>
+        <div class="col-md-4">
+          <h3 class="resource2">
+            <a href="https://www.ojjdp.gov">OJJDP</a>
+          </h3>
+        </div>
+        <div class="col-md-4">
+          <h3 class="resource2">
+            <a href="https://www.in.gov/isdh/17444.htm">Indiana Dept of Health</a>
+          </h3>
+        </div>
+        <div class="col-md-4">
+          <h3 class="resource2">
+            <a href="http://www.lacasadeamistad.org">La Casa de Amistad</a>
+          </h3>
+        </div>
+        <div class="col-md-4">
+          <h3 class="resource2">
+            <a href="http://www.nmac.org">NMAC</a>
+          </h3>
+        </div>
+        <div class="col-md-4">
+          <h3 class="resource2">
+            <a href="https://www.greaterthan.org">Greater Than</a>
+          </h3>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <h3 class="resource2">
+            <a href="http://www.officialkwanzaawebsite.org/index.shtml#Going%20to%20the%20top">Official Kwanzaa Website</a>
+          </h3>
+        </div>
+        <div class="col-md-4">
+          <h3 class="resource2">
+          <a href="https://socialconcerns.nd.edu/">Social Concerns ND</a>
+        </h3>
+         </div>
+        <div class="col-md-4"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <h3 class="resource2">
+            <a href="http://www.officialkwanzaawebsite.org/index.shtml#Going%20to%20the%20top"> Official Kwanzaa Website.org</a>
+          </h3>
+        </div>
+        <div class="col-md-4">
+          <h3 class="resource2">
+          <a href="https://socialconcerns.nd.edu/"> Social Concerns.nd.edu</a>
+        </h3>
+      </div>
+        <div class="col-md-4"></div>
+      </div>
+
+
+<<<<<<< HEAD
+
+
+
+       </div>
+
+=======
+>>>>>>> 0b289633b5f04f0ddb8aa230caeaa53a554a2a64
+  </body>
+
+  </html>
