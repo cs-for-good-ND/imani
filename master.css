@@ -221,3 +221,8 @@ button {
   border-radius: 5px;
   margin: 10px 80px 10px 80px;
 }
+
+#map {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
