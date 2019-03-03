@@ -228,6 +228,7 @@ button {
     padding-bottom: 20px;
 }
 
+<<<<<<< HEAD
 #definfo h4 {
     font-family: 'Ubuntu', sans-serif;
     color: #132c86;
@@ -237,3 +238,14 @@ button {
     font-family: 'Ubuntu', sans-serif;
     color: grey;
 }
+=======
+.homebutton{
+  
+    text-align: center;
+    color: black;
+    padding:  10px 0px 10px 0px;
+    border:solid 2px #539537;
+    border-radius: 5px;
+    margin: 10px 80px 10px 80px;
+  }
+>>>>>>> 10ae08e39540986fd399e4066959258810f350c4
