@@ -54,6 +54,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+
 #historyContent h2 {
     color: #539537;
 }
@@ -225,4 +226,14 @@ button {
 #map {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+#definfo h4 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #132c86;
+}
+
+.panel-body {
+    font-family: 'Ubuntu', sans-serif;
+    color: grey;
 }
