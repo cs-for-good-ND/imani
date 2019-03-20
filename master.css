@@ -1,3 +1,22 @@
+@media only screen and (min-width: 768px) and (max-width: 992px)   {  
+    #bootstrap-overrides
+    {
+        margin-top: 60px;
+    }
+}
+
+@media only screen and (min-width: 992.001px) and (max-width: 1200px)   {  
+    #bootstrap-overrides
+    {
+        margin-top: 60px;
+    }
+
+    #bo2
+    {
+        margin-top: 60px;
+    }
+}
+
 #title{
     text-align:center;
     font-size: 36px;
@@ -54,7 +73,6 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-
 #historyContent h2 {
     color: #539537;
 }
@@ -72,7 +90,6 @@ body {
 }
 
 #servicesContent h2 {
-    font-family: 'Ubuntu', sans-serif;
     color: #539537;
 }
 
@@ -223,28 +240,3 @@ button {
   border-radius: 5px;
   margin: 10px 80px 10px 80px;
 }
-
-#map {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-#definfo h4 {
-    font-family: 'Ubuntu', sans-serif;
-    color: #132c86;
-}
-
-.panel-body {
-    font-family: 'Ubuntu', sans-serif;
-    color: grey;
-}
-
-.homebutton{
-  
-    text-align: center;
-    color: black;
-    padding:  10px 0px 10px 0px;
-    border:solid 2px #539537;
-    border-radius: 5px;
-    margin: 10px 80px 10px 80px;
-  }
