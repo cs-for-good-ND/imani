@@ -231,8 +231,12 @@ button {
     color: #539537;
 }
 
+#titles2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
 .resource{
-  
+  font-family: 'Ubuntu', sans-serif;
   text-align: center;
   color: black;
   padding:  10px 0px 10px 0px;
