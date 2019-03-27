@@ -3,13 +3,11 @@
 
 <head>
     <title> Imani Unidad </title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="master.css">
-    
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="master.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
@@ -23,9 +21,16 @@
         <nav class="navbar navbar-default navbar-fixed-top stroke" id="navbar" role="navigation">
         <div class="container">
             <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                          </button>
                 <a id="title" class="navbar-brand href=#"> Imani Unidad </a>
             </div>
-            <ul class="nav navbar-nav text-center">
+            <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
                 <li><a href="alenaIndex.html">Home</a></li>
 
                 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us  
@@ -67,16 +72,14 @@
                         </ul>
                 </li>                
             </ul>
+            </div> <!--/.nav-collapse -->
             </div>
                 <div id="head" class="container-fluid">
-                    <div id="header-background"><h1 id="pictureText"></h1></div>
+                    <div id="header-background"></div>
                 </div>
         </nav>
 
     </div>
-
-   
-    <div class="godown-60" id="godown"></div>
 
     <div class="container">
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -159,14 +162,11 @@
     </div>
 
 
-     <div class="godown-60" id="godown"></div>
-<div class="fluid-container">
     <footer class="footer">
         <div id="footText" class="container">
             <span class="text-muted">914 Lincoln Way W South Bend, IN 46616 | (574) 288-2887 and email</span>
         </div>
     </footer>
-</div>
 
 
 
