@@ -59,10 +59,6 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-#sections {
-    padding-top: 100px;
-}
-
 #historyContent .jumbotron{
     position: relative;
 }
@@ -81,7 +77,6 @@ body {
 
 #servicesContent .jumbotron {
     position: relative;
-    top: 100px;
     left: 80px;
 }
 
