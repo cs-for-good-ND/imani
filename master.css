@@ -17,25 +17,6 @@
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 992px)   {  
-    #bootstrap-overrides-home
-    {
-        margin-top: 100px;
-    }
-}
-
-@media only screen and (min-width: 992.001px) and (max-width: 1200px)   {  
-    #bootstrap-overrides-home
-    {
-        margin-top: 100px;
-    }
-
-    #bo2
-    {
-        margin-top: 100px;
-    }
-}
-
 #title{
     text-align:center;
     font-size: 36px;
@@ -84,7 +65,6 @@ body {
 
 #historyContent .jumbotron{
     position: relative;
-    top: 50px;
 }
 
 #historyContent #content {
