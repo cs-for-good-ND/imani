@@ -257,3 +257,8 @@ button {
     border-radius: 5px;
     margin: 10px 80px 10px 80px;
   }
+
+  #definition2{
+    font-family: 'Ubuntu', sans-serif;
+    color: grey;
+  }
