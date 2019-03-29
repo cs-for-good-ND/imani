@@ -184,15 +184,20 @@ button {
 #involvedheader {
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
-    color: grey;
+    color:#132c86;
     
 }
 
-#involvedheader h1 {
+#involved{
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    color: grey;
+}
+#involved h1 {
     color:#132c86;
 }
 
-#involvedheader h2 {
+#involved h2 {
     color: #539537;
 }
 
