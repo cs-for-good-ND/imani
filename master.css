@@ -17,6 +17,35 @@
     }
 }
 
+@media only screen and (max-width: 639px)
+{
+    #pictureText2
+    {
+        margin-top: -2px;
+    }
+
+    #bo3
+    {
+        margin-left:-80px;
+    }
+}
+
+@media only screen and (min-width: 639px) and (max-width: 1200px) {
+#bo3
+
+    {
+        margin-left: 80px;
+    }
+}
+
+@media only screen and (min-width: 639px) and (max-width: 768px) {
+#bo3
+
+    {
+        margin-left: -70px;
+    }
+}
+
 #title{
     text-align:center;
     font-size: 36px;
@@ -126,6 +155,16 @@ body {
 }
 
 #pictureText {
+    text-align:center;
+    font-size: 36px;
+    display: block;
+    font-family: 'Bungee Shade';
+    color: white;
+    padding-right: 50px;
+    
+}
+
+#pictureText2 {
     text-align:center;
     font-size: 36px;
     display: block;
