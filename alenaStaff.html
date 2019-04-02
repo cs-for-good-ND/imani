@@ -3,112 +3,162 @@
 
 <head>
     <title> Imani Unidad </title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="master.css">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="master.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 
+
 </head>
 
 <body>
-    <div class="container">
-        <nav class="navbar navbar-default navbar-fixed-top stroke" id="navbar">
-            <div class="container">
-                <div class="navbar-header">
-                    <a id="title" class="navbar-brand href=#"> Imani Unidad </a>
-                </div>
-                <ul class="nav navbar-nav text-center">
-                    <li><a href="alenaIndex.html">Home</a></li>
-
-                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us
-                            <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="alenaHistory.html">History</a></li>
-                            <li><a href="alenaStaff.html">Staff</a></li>
-                        </ul>
-                    </li>
-
-                    <li><a href="patrickServicesAndResources.html">Services</a></li>
-
-
-                    <li><a href="links.html">Important Links</a></li>
-
-                    <li><a href="alenaContact.html">Contact Us</a></li>
-
-                    <li><a href="alenaGetInvolved.html">Get Involved </a></li>
-
-                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"> Educational
-                            <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu" role="menu">
-
-                            <li class="dropdown-submenu pull-left"><a href="#" class="dropdown-toggle" data-toggle="dropdown"> Tests and Surveys
-                                    <span class="caret"></span>
-                                </a>
-                                <ul class="dropdown-menu" role="menu">
-                                    <li><a href="patrickPreventionPreEval.html">Prevention Knowledge Pre-Evaluation</a></li>
-                                    <li><a href="patrickPreventionPostEval.html">Prevention Knowledge Post-Evaluation</a></li>
-                                    <li><a href="patrickWorkshopEval.html">Workshop Evaluation Questionnaire</a></li>
-                                    <li><a href="patrickImagine.html">"Imagine a Sexual Human" Reflection</a></li>
-                                </ul>
-
-                            </li>
-
-                            <li><a href="patrickDefinitions.html">Definitions</a></li>
-                        </ul>
-                    </li>
-                </ul>
+    <div class = "container" >
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a id="title" class="navbar-brand" href="#">Imani Unidad</a>
             </div>
-            <div id="head" class="container-fluid">
-                <div id="header-background">
-                    <h1 id="pictureText">Staff</h1>
-                </div>
-            </div>
-        </nav>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="alenaIndex.html">Home</a></li>
+
+                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="alenaHistory.html">History</a></li>
+                                <li><a href="alenaStaff.html">Staff</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="patrickServicesAndResources.html">Services</a></li>
+
+
+                        <li><a href="links.html">Important Links</a></li>
+
+                        <li><a href="alenaContact.html">Contact Us</a></li>
+
+                        <li><a href="alenaGetInvolved.html">Get Involved </a></li>
+
+                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"> Educational
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+
+                                <li class="dropdown-submenu pull-left"><a href="#" class="dropdown-toggle" data-toggle="dropdown"> Tests and Surveys
+                                        <span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="patrickPreventionPreEval.html">Prevention Knowledge Pre-Evaluation</a></li>
+                                        <li><a href="patrickPreventionPostEval.html">Prevention Knowledge Post-Evaluation</a></li>
+                                        <li><a href="patrickWorkshopEval.html">Workshop Evaluation Questionnaire</a></li>
+                                        <li><a href="patrickImagine.html">"Imagine a Sexual Human" Reflection</a></li>
+                                    </ul>
+
+                                </li>
+
+                                <li><a href="patrickDefinitions.html">Definitions</a></li>
+                            </ul>
+                        </li>
+                
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div>
+
+        <div id="head" class="container-fluid">
+                    <div id="header-background">
+                        <h1 id="pictureText">Staff</h1>
+                    </div>
+        </div>
+    </nav>
+</div>
+
+<div class="container" id="staff">
+
+  <div class="row">
+    <div class="col-md-3">
+        <h1 id="bootstrap-overrides"></h1>
+    </div>
+  </div>
+
+  <div class="row" id="staff-section">
+    <div class="col-md-2">
+      <img src="img/debrastaff.jpg" width="160" alt="Debra">
+    </div>
+    <div class="col-md-8">
+      <h2>Debra Stanley</h2>
+      <p>Debra Stanley is the founder and Executive Director of Imani Unidad Inc. Mrs. Stanley is
+        responsible for the organization’s consistent achievement of its mission and day-to-day operations.
+        She directs the development and management of Imani Unidad’s programs as well as serves her community
+        through advocacy, education, and her unwavering commitment to social and behavioral health and justice.</p>
+    </div>
+  </div>
+
+  <div class="row" id="staff-section">
+    <div class="col-md-2">
+      <img src="img/baye.jpg" width= "160" alt="Baye">
+    </div>
+    <div class="col-md-8">
+      <h2>Baye Sylvester</h2>
+      <p>CLEAR Counselor: "Coming in from the cold- With a passion for life and knowing that the struggle for empowerment in self
+        and community demands focus.  My position here at Imani Unidad represents a natural progression in my effort
+        to be of service. As the group coordinator for Peer to Peer (P2P), I have the unique pleasure of helping
+        to shape a community asset that I rely upon for my own sustenance. My position isn’t mine I like to say,
+        but rather it is the product of the people entrusted to me while I am here.”</p>
+    </div>
+  </div>
+
+  <div class="row" id="staff-section">
+    <div class="col-md-2">
+      <img src="img/rose.jpg" width= "160" alt="Rose">
+    </div>
+    <div class="col-md-8">
+      <h2>Rose Clark</h2>
+      <p>Rose Clark is a Licensed Clinical Social Worker who received her Masters of Social Work
+        from Indiana University. In addition to providing therapeutic services, Mrs. Clark also supervises
+        the counseling staff and interns here at Imani Unidad. She is also a trainer for the ACE program,
+        a service designed to identify and combat the effects of trauma within the lives of our clients.</p>
+    </div>
+  </div>
+
+  <hr style="border: 1px solid #132c86">
+
+  <div class="row" id="staff-section">
+      <div class="col-md-12">
+        <h2>Board Members</h2>
+        <p><b>President:</b> Latorya Greene, Tobacco Education Coordinator, Saint Joseph Health System </p>
+        <p><b>Vice-President:</b> Gerri Griffin, BSN, RN, Executive Director Slice of Life Youth Development Group</p>
+        <p><b>Secretary:</b> Ray Davis, Secretary to the Principal Community Member/ Rhythm & Blues Singer</p>
+        <p><b>Treasurer:</b> Rasheeda Lewandowski, Process Analyst, Zentis North America Financial</p>
+        <p><b>Program Chair:</b> Bill Anderson, Executive Director, It's Possible, Inc. </p>
+        <p><b>Health & Welness Chair:</b> Maxie Bolden, Jr., Pharmacist, Beacon Health System</p>
+        <p><b>Fundraising Committee Chair:</b> Kirstin Champer, Community Health Worker</p>
+        <p><b>Board Member:</b> Darryl Heller, Executive Director, Civil Rights Heritage Center</p>
+        <p><b>Board Member:</b> Betty Tacy, Consumer Advocate</p>
+        <p><b>Board Member:</b> Pat Miller, CRSC/CLEAR Counselor</p>
+      </div>
+  </div>
+
+</div>
 
     </div>
-
-    <div class=container id="staff">
-        <div class=row>
-            <h1>Staff</h1>
-        </div>
-        <div class=row>
-            <div id="left" class="col-md-4">
-                <h2>picture go here</h2>
-            </div>
-            <div id="left" class="col-md-8">
-                <h2>Name</h2>
-                <h4>blah blah about the staff </h4>
-            </div>
-        </div>
-        <div class=row>
-            <h1>Board Members</h1>
-        </div>
-        <div class=row>
-            <div id="left" class="col-md-4">
-                <h2>picture go here</h2>
-            </div>
-            <div id="left" class="col-md-8">
-                <h2>Name</h2>
-                <h4>blah blah about the board </h4>
-            </div>
-        </div>
-    </div>
-
-    <div class="fluid-container">
         <footer class="footer">
             <div id="footText" class="container">
                 <span class="text-muted">914 Lincoln Way W South Bend, IN 46616 | (574) 288-2887 | info@imaniunidadinc.org</span>
             </div>
         </footer>
-    </div>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
@@ -117,3 +167,10 @@
 </body>
 
 </html>
+
+
+
+
+
+
+

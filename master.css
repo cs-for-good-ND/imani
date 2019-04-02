@@ -17,6 +17,35 @@
     }
 }
 
+@media only screen and (max-width: 639px)
+{
+    #pictureText2
+    {
+        margin-top: -2px;
+    }
+
+    #bo3
+    {
+        margin-left:-80px;
+    }
+}
+
+@media only screen and (min-width: 639px) and (max-width: 1200px) {
+#bo3
+
+    {
+        margin-left: 80px;
+    }
+}
+
+@media only screen and (min-width: 639px) and (max-width: 768px) {
+#bo3
+
+    {
+        margin-left: -70px;
+    }
+}
+
 #title{
     text-align:center;
     font-size: 36px;
@@ -59,10 +88,6 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-#sections {
-    padding-top: 100px;
-}
-
 #historyContent .jumbotron{
     position: relative;
 }
@@ -81,7 +106,6 @@ body {
 
 #servicesContent .jumbotron {
     position: relative;
-    top: 100px;
     left: 80px;
 }
 
@@ -140,6 +164,16 @@ body {
     
 }
 
+#pictureText2 {
+    text-align:center;
+    font-size: 36px;
+    display: block;
+    font-family: 'Bungee Shade';
+    color: white;
+    padding-right: 50px;
+    
+}
+
 #head {
     position: relative;
 }
@@ -189,15 +223,20 @@ button {
 #involvedheader {
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
-    color: grey;
+    color:#132c86;
     
 }
 
-#involvedheader h1 {
+#involved{
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    color: grey;
+}
+#involved h1 {
     color:#132c86;
 }
 
-#involvedheader h2 {
+#involved h2 {
     color: #539537;
 }
 
@@ -213,6 +252,10 @@ button {
 
 #staff h2 {
     color: #539537;
+}
+
+#staff-section {
+    padding:  0px 0px 20px 0px;
 }
 
 .carousel {
@@ -257,4 +300,9 @@ button {
     border:solid 1px #539537;
     border-radius: 5px;
     margin: 10px 80px 10px 80px;
+  }
+
+  #definition2{
+    font-family: 'Ubuntu', sans-serif;
+    color: grey;
   }
