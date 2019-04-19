@@ -38,12 +38,11 @@
         margin-left:-80px;
     }
     #header-background {
-        background-image: url("img/kentemobile.jpg");
+        background-image: url("img/kente.jpg");
         width: 100%;
         height: 100%;
         position: absolute;
         padding-bottom: 80px;
-        background-repeat: no-repeat;
     }
 }
 
@@ -169,7 +168,13 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-
+#header-background {
+    background-image: url("img/kente.jpg");
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    padding-bottom: 80px;
+}
 
 
 #head {
@@ -318,4 +323,20 @@ button {
     font-family: 'Ubuntu', sans-serif;
     color:#132c86;
     
+}
+
+@media only screen and (max-width: 639px)
+{
+    #bo3
+    {
+        margin-left:-80px;
+    }
+    #header-background {
+        background-image: url("img/kentemobile.jpg");
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        padding-bottom: 80px;
+        background-repeat: no-repeat;
+    }
 }
