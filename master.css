@@ -3,6 +3,13 @@
     {
         margin-top: 60px;
     }
+    #header-background {
+        background-image: url("img/kente.jpg");
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        padding-bottom: 80px;
+    }
 }
 
 @media only screen and (min-width: 992.001px) and (max-width: 1200px)   {  
@@ -15,18 +22,28 @@
     {
         margin-top: 60px;
     }
+    #header-background {
+        background-image: url("img/kente.jpg");
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        padding-bottom: 80px;
+    }
 }
 
 @media only screen and (max-width: 639px)
 {
-    #pictureText2
-    {
-        margin-top: -2px;
-    }
-
     #bo3
     {
         margin-left:-80px;
+    }
+    #header-background {
+        background-image: url("img/kentemobile.jpg");
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        padding-bottom: 80px;
+        background-repeat: no-repeat;
     }
 }
 
@@ -152,33 +169,8 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-#header-background {
-    background-image: url("img/kente.jpg");
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    padding-bottom: 80px;
-}
 
-#pictureText {
-    text-align:center;
-    font-size: 36px;
-    display: block;
-    font-family: 'Bungee Shade';
-    color: white;
-    padding-right: 50px;
-    
-}
 
-#pictureText2 {
-    text-align:center;
-    font-size: 36px;
-    display: block;
-    font-family: 'Bungee Shade';
-    color: white;
-    padding-right: 50px;
-    
-}
 
 #head {
     position: relative;
