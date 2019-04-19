@@ -98,6 +98,12 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+#historyContent h1 {
+    color: #132c86;
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+}
+
 #historyContent h2 {
     color: #539537;
     text-align: left;
@@ -181,6 +187,8 @@ body {
 
 h1 {
     color:#132c86;
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 h2, h3, h4, h5, h6 {
@@ -220,12 +228,6 @@ button {
     color: #539537;
 }
 
-#involvedheader {
-    text-align: center;
-    font-family: 'Ubuntu', sans-serif;
-    color:#132c86;
-    
-}
 
 #involved{
     text-align: left;
@@ -306,3 +308,22 @@ button {
     font-family: 'Ubuntu', sans-serif;
     color: grey;
   }
+
+  #definition2 h1{
+    font-family: 'Ubuntu', sans-serif;
+    color: #132c86;
+    text-align: left;
+  }
+
+#linkspage h1 {
+    color: #132c86;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#involvedheader h1 {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color:#132c86;
+    
+}
