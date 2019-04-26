@@ -306,3 +306,21 @@ button {
     font-family: 'Ubuntu', sans-serif;
     color: grey;
   }
+
+
+/* forum */
+
+.box {
+    border: 3px solid #539537;
+	border-radius: 3px;
+    box-sizing: border-box;
+}
+
+#toptext {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#midtext {
+    padding-left: 10px;
+}

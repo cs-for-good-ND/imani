@@ -1,250 +1,115 @@
 <!DOCTYPE html>
-<html>
-  <head>
-
+<html lang="en" ng-app="app">
+<head>
     <title> Imani Unidad </title>
-      <!-- Latest compiled and minified CSS -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="master.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 
-      <!-- Optional theme -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.js"></script>
+    
+    <script src="./node_modules/parse/dist/parse.min.js"></script>
+    <script src="./node_modules/angular-parse/angular-parse.js"></script>
+    
+    <script src="app.js"></script>
+</head>
 
-      <!-- Latest compiled and minified JavaScript -->
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-      <link rel="stylesheet" href="style/style.css">
-      <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
-
-
-  </head>
-
-  <body>
-      <nav class="navbar navbar-default navbar-fixed-top">
-  		<div class="container">
-
-  	  <ul class="nav navbar-nav">
-  		<li><a href="index.html">Home</a></li>
-  		<!--<li class="active"><a href="about.html">About Us</a></li>-->
-
-          <li><div class="dropdown">
-            <button class="dropbtn"> About Us </button>
-              <div class="dropdown-content">
-                  <a href="tab_sites/about_us/history.html">History</a>
-                  <a href="tab_sites/about_us/staff.html">Staff</a>
-                  <a href="tab_sites/about_us/boardMembers.html">Board Members</a>
-
-              </div>
-            </div>
-          </li>
-
-  		<li><div class="dropdown">
-              <button class="dropbtn"> Services</button>
-              <div class="dropdown-content">
-                  <a href="tab_sites/Services/Therapeutic.html">Therapeutic</a>
-                  <a href="tab_sites/Services/Education.html">Education</a>
-                  <a href="tab_sites/Services/Advocacy.html">Advocacy</a>
-              </div>
-              </div>
-            </li>
-
-  		<li><div class="dropdown">
-              <button class="dropbtn"> Media</button>
-              <div class="dropdown-content">
-                  <a href="tab_sites/Media/Photos.html">Photos</a>
-                  <a href="tab_sites/Media/Radio.html">Radio</a>
-                  <a href="tab_sites/Media/TV.html">TV</a>
-              </div>
-              </div>
-            </li>
-
-  		<li><a href="links.html">Important Links</a></li>
-  		<li><a href="communityBasedResearch.html">Community Based Research</a></li>
-
-   		<li><div class="dropdown">
-              <button class="dropbtn">Contact Us</button>
-              <div class="dropdown-content">
-                  <a href="tab_sites/contact_us/getInvolved.html">Get Involved</a>
-              </div>
-              </div>
-            </li>
-
-  		<li><a href="donate.html">Donate</a></li>
-  	  </ul>
-  		</div>
-  	  </nav>
-
-
-  <div id=home>
+<body>
     <div class="container">
-        <div class="row">
-
-            <div class="col-md-12">
-                <div id="title"> <h1>Imani Unidad</h1></div>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a id="title" class="navbar-brand">Imani Unidad</a>
                 </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#/">Home</a></li>
 
-             </div>
-           </div>
-         </div>
+                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="#/history">History</a></li>
+                                <li><a href="#/staff">Staff</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#/services">Services</a></li>
 
 
-     </div>
+                        <li><a href="#/links">Important Links</a></li>
+
+                        <li><a href="#/contact">Contact Us</a></li>
+
+                        <li><a href="#/getInvolved">Get Involved </a></li>
+
+                        <li class="dropdown"><a class="dropdown-toggle"> Educational
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+
+                                <li class="dropdown-submenu pull-left"><a class="dropdown-toggle" data-toggle="dropdown"> Tests and Surveys
+                                        <span class="caret"></span>
+                                    </a>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a href="#/preventionPre">Prevention Knowledge Pre-Evaluation</a></li>
+                                        <li><a href="#/preventionPost">Prevention Knowledge Post-Evaluation</a></li>
+                                        <li><a href="#/workshopEval">Workshop Evaluation Questionnaire</a></li>
+                                        <li><a href="#/imagine">"Imagine a Sexual Human" Reflection</a></li>
+                                    </ul>
+
+                                </li>
+
+                                <li><a href="#/definitions">Definitions</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#/patrickForum">Forum</a></li>
 
 
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+
+            <div id="head" class="container-fluid">
+                <div id="header-background">
+                </div>
+            </div>
+        </nav>
+    </div>
+    
+    <div ng-view>
+    
+    
     </div>
 
-  <div id="missions">
-    <div class="container">
-
-    <div class="row">
-      <div class="col-md-12 missiontitle">
-        <h2 class="homepageheader">
-          Our Mission
-        </h2>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-12">
-        <h3>
-          The primary purpose of this charitable, not-for-profit organization is to infuse social justice into social health by providing Prevention, Education and Advocacy through Community Efforts.
-
-        </h3>
-    </div>
-
-    </div>
-  </div>
-</div>
+    <footer class="footer">
+        <div id="footText" class="container">
+            <span class="text-muted">914 Lincoln Way W South Bend, IN 46616 | (574) 288-2887 | info@imaniunidadinc.org</span>
+        </div>
+    </footer>
 
 
 
 
-  <div id="wisdom">
-    <div class="container">
-
-    <div class="row">
-      <div class="col-md-12" missiontitle>
-        <h2 class="homepageheader">
-        Wisdom corner
-      </h2>
-
-      <div id="WisdomCornerBLOCK"><script type="text/javascript" src="main.js"></script></div>
-	   </div>
-    </div>
-
-    </div>
-  </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 
 
+</body>
 
-  <div id="wisdom">
-    <div class="container">
-
-    <div class="row">
-      <div class="col-md-12 missiontitle">
-        <h2 class="homepageheader">
-        Wisdom corner
-      </h2>
-
-      <div id="WisdomCornerBLOCK"><script type="text/javascript" src="main.js"></script></div>
-	   </div>
-    </div>
-
-    </div>
-  </div>
-
-
-
-
-  <div id="missions2">
-    <div class="missiontitle">
-      <h2 class="homepageheader">
-      Our Vision
-      </h2>
-    </div>
-
-
-    <h3>
-
-  In achieving this purpose, the organization will include: African American community members,
-  individuals living with HIV, those challenged by substance abuse, and formerly incarcerated persons,
-  in decision-making, education, advocacy, service delivery, public relations, research and leadership.
-  The organization will provide neighborhood representatives to facilitate workable solutions through community partnerships;
-  develop innovative programs with multiple strategies; and engage in other activities that promote the overall goals
-  of the organization.
-
-    </h3>
-  </div>
-
-  <div id="history">
-      <div class="missiontitle">
-        <h2 class="homepageheader">
-        Our History
-        </h2>
-    </div>
-
-
-    <h3>
-
-  The organization began in 1993 as a coalition of concerned community individuals from various backgrounds who came together to address the emerging need to heighten the
-awareness and knowledge regarding HIV and AIDS in the African American community. The members began by educating themselves, with two members becoming American
-Red Cross certified HIV instructor trainers and one became a trainer in the Centers for Disease Control HIV prevention &quot;Programs That Work&quot;. In turn they trained other
-members of the group in the various programs. The group then began to provide educational sessions throughout the community in churches, neighborhood partnership
-centers, and recreational facilities while partnering with local AIDS service organizations, county and state health departments and school corporations. Imani
-Unidad has continued these efforts with a significant emphasis on the prevention of HIV infection which includes other STDs and substance misuse because of the strong
-linkage to these factors. The organization continued to carry out these goals by expanding the coalition to include more members with backgrounds in areas related to
-furthering the prevention purposes of the organization. The organization hosted monthly meetings open to the community and began offering training opportunities,
-educational workshops, conferences and capacity building assistance to other service providers and community members who desired to meaningfully engage in effective prevention efforts.<br><br>
-The foundational service provision of Imani Unidad continues to be individual and group level counseling and education. In our service provision, we chose to take a mental
-health approach to our prevention efforts with the knowledge that our beliefs, feelings, and thoughts determine our behaviors while also being a primary determinant in how we
-treat one another. So to this end and to this day we work diligently to create an environment conducive to learning, promote honest and respectful dialogue, provide
-fact based knowledge and adhere to the basic principles of dignity and respect for all. <br><br>In 2011 when Goodwill began an endeavor to provide employment opportunities to
-black males returning from incarceration Imani Unidad was contracted to support this effort by recruiting and helping to retain individuals. The relationship was so successful
-that Imani continued the partnership once they implemented the Second Chance and Beyond Jobs programs. While the Goodwill focused on the external challenges of
-employment, education and job skills, Imani provided the means by which individuals could work on their interpersonal needs related to sexual health, relationships,
-parenting, and social behaviors.  The number one reason individuals return to prison is relationship issues with families and significant others. When the city of South Bend
-launched the group violence intervention in 2014 it was just natural that Imani be involved. Hence the establishment of the Peer-to-Peer intervention. P2P is holistic in its approach to addressing the individualized needs of group participants.
-
-    </h3>
-  </div>
-
-  <div id="updates">
-    <div class="missiontitle">
-      <h2 class="homepageheader">
-      Updates
-      </h2>
-    </div>
-
-  <div id="event">
-    <h3>
-      Event: oijaijf;adjf;iasdj;fijdaij;i;fadjfasdjf;dj;aij;oijda;j
-    </h3>
-
-    <h3>
-      Event: oijaijf;adjf;iasdj;fijdaij;i;fadjfasdjf;dj;aij;oijda;j
-    </h3>
-
-    <h3>
-       Event: oijaijf;adjf;iasdj;fijdaij;i;fadjfasdjf;dj;aij;oijda;j
-    </h3>
-  </div>
-
-  </div>
-
-<div class="nondiscrim">
-  <h6>
-    Imani Unidad, Inc. does not discriminate in the provision of services on the basis of race, color, ethnicity, national origin, citizenship, immigration status, sex, gender, gender identity, relationship, affectional preference, sexual nature, lifestyle, religion, creed, belief, political views, occupation, addiction, financial status, handicap, physical or mental disability, ability, age, housing status, criminal history, veteran status, HIV exposure source, or any other artificial distinction used to separate and divide people.
-    </h6>
-</div>
-
-
-  </body>
-
-
-
-
-
-
-
-
-  </html>
+</html>
