@@ -7,26 +7,23 @@
     </div>
 </div>
 
-<div class="container" ng-repeat="thread in threads">
+<div class="container" ng-repeat="thread in threads" style="text-align: left; margin-top: 20px;">
     <div class="container">
         <div class="row">
-            <a href="#/post/{{ thread.id }}"> {{ thread.attributes.title }} </a>
+            <h3><a href="#/post/{{ thread.id }}" style="text-align: left;"> {{ thread.attributes.title }} </a></h3>
         </div>
     </div>
 </div>
 
-
-<!--
 <div class="container">
     <div class="row" style="margin-top: 200px">
         <div class="mx-auto submitBtn col-centered">
-            <button type="button" class="btn btn-primary mt-4" style="font-size:1.6em" onclick="(function(){document.location.href='patrickNewPost.html'}());">
-                Write your own
+            <button type="button" class="btn btn-primary mt-4" style="font-size:1.6em" onclick="(function(){document.location.href='#/newPost'}());">
+                Add Post
             </button>
         </div>
     </div>
 </div>
--->
 
 <div class="container">
     <br>
