@@ -1,0 +1,96 @@
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Write your own post:</h1>
+                    <div class="container mt-4">
+                        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                            <label class="btn btn-secondary categoriesradio generalradio" style="font-size:1.6em" onclick="handleFirstClick(this)" id="general">
+                                <input type="radio" name="options" autocomplete="off">General
+                            </label>
+                            <label class="btn btn-secondary categoriesradio generalradio" style="font-size:1.6em" onclick="handleFirstClick(this)" id="personal">
+                                <input type="radio" name="options" autocomplete="off">Personal
+                            </label>
+                            <label class="btn btn-secondary categoriesradio generalradio" style="font-size:1.6em" onclick="handleFirstClick(this)" id="educational">
+                                <input type="radio" name="options" autocomplete="off">Educational
+                            </label>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div ng-controller="entryController">
+        <div class="container mt-4 aca general" style="display: none;">
+                    <h1>General - New Post</h1>
+                    <h5>What general remarks, questions, or other discussion points do you have?</h5>
+                    <form>
+                        <div class="form-group mt-4">
+                            <h3>Title:</h3> <textarea class="form-control" id="textForm" rows="1" ng-model="title"></textarea>
+                        </div>
+                        <div class="form-group">
+                             <h3>Name:</h3> <textarea class="form-control" id="textForm" rows="1" ng-model="name"></textarea>
+                        </div>
+                        <div class="form-group">
+                             <h3>Message:</h3> <textarea class="form-control" id="textForm" rows="3" ng-model="msg"></textarea>
+                        </div>
+                        <button class="btn btn-secondary submit general" id="generalButton" type="submit" style="font-size:1.6em" ng-click="makeEntry(title, name, msg, 'general')">Submit</button>
+                    </form>
+            </div>
+
+            <div class="container mt-4 aca personal" style="display: none;">
+                    <h1>Personal - New Post</h1>
+                    <h5>What personal stories, advice, and recommendations do you have?</h5>
+                    <form>
+                        <div class="form-group mt-4">
+                            <h3>Title:</h3> <textarea class="form-control" id="textForm" rows="1" ng-model="title"></textarea>
+                        </div>
+                        <div class="form-group">
+                             <h3>Name:</h3> <textarea class="form-control" id="textForm" rows="1" ng-model="name"></textarea>
+                        </div>
+                        <div class="form-group">
+                             <h3>Message:</h3> <textarea class="form-control" id="textForm" rows="3" ng-model="msg"></textarea>
+                        </div>
+                        <button class="btn btn-secondary submit personal" id="personalButton" type="submit" style="font-size:1.6em;" ng-click="makeEntry(title, name, msg, 'personal')">Submit</button>
+                    </form>
+            </div>
+
+            <div class="container mt-4 aca educational" style="display: none;">
+                    <h1>Educational - New Post</h1>
+                    <h5>What educational comments or discussion points do you have?</h5>
+                    <form>
+                        <div class="form-group mt-4">
+                            <h3>Title:</h3> <textarea class="form-control" id="textForm" rows="1" ng-model="title"></textarea>
+                        </div>
+                        <div class="form-group">
+                             <h3>Name:</h3> <textarea class="form-control" id="textForm" rows="1" ng-model="name"></textarea>
+                        </div>
+                        <div class="form-group">
+                             <h3>Message:</h3> <textarea class="form-control" id="textForm" rows="3" ng-model="msg"></textarea>
+                        </div>
+                         <button class="btn btn-secondary submit educational" id="textForm" type="submit" style="font-size:1.6em;" ng-click="makeEntry(title, name, msg, 'educational')">Submit</button>
+                    </form>
+
+            </div>
+    </div>
+    
+            <form class="form-inline" ng-controller="entryController">
+                
+            </form>
+            <form class="form-inline">
+                
+            </form>
+            <form class="form-inline">
+                
+            </form>
+    
+    
+<!--   TEST     -->
+<!--
+        <div class="container">
+            <form class="form-inline" ng-controller="entryController">
+                <button class="btn btn-secondary submit general" id="generalButton" type="submit" style="font-size:1.6em" ng-click="makeGeneralEntry(title, name, msg)">Submit</button>
+            </form>       
+        </div>
+-->
+    
+    

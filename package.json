@@ -1,0 +1,24 @@
+{
+  "name": "imani",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cs-for-good-ND/imani.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cs-for-good-ND/imani/issues"
+  },
+  "homepage": "https://github.com/cs-for-good-ND/imani#readme",
+  "dependencies": {
+    "angular-parse": "^0.2.2",
+    "angular-route": "^1.7.8",
+    "parse": "^1.11.1"
+  }
+}
